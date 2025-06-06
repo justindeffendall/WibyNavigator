@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code workspace settings
+.vscode/
+
+# macOS metadata
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Log files
+*.log
+
+# Ignore coverage and test reports
+htmlcov/
+.coverage
+
+# Ignore pipenv files (if ever used)
+Pipfile.lock
+
+# Ignore IDE/editor temporary files
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore common archive files
+*.zip
+*.tar.gz
+*.egg-info/
+
+# End of .gitignore
