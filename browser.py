@@ -20,7 +20,7 @@ class RetroBrowser(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Wiby Navigator 1.0")
+        self.setWindowTitle("Wiby Navigator")
         self.resize(800, 600)
         self.setStyleSheet("""
             QMainWindow {
