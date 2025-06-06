@@ -56,6 +56,8 @@ class RetroBrowser(QMainWindow):
         nav_bar = QToolBar("Navigation")
         nav_bar.setFont(font)
         self.addToolBar(nav_bar)
+        nav_bar.setMovable(False)         # Disable dragging/docking
+        nav_bar.setFloatable(False)
 
         # Back button
         back_btn = QAction("[Back]", self)
